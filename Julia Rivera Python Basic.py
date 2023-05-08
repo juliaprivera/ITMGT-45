@@ -113,7 +113,8 @@ def body_mass_index(weight, height):
     '''
     # Replace `pass` with your code. 
     # Stay within the function. Only use the parameters as input. The function should return your answer.
-    kilograms = float(weight)/2.2046
-    feet,inches = height.split("'")
-    m = (int(feet)/3.281) + int(inches.strip('"'))/39.37
-    return float(kilograms/(m ** 2))
+    kilograms = weight/2.2046
+    inches = (height[0]*12)+height[1]
+    meters = inches/39.3701
+    bmi = kilograms/(meters*meters)
+    return float(bmi)
