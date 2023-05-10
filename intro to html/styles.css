@@ -1,0 +1,39 @@
+h1 {
+    color: "black";
+    text-align: "center";
+    font-family: "Arial"
+}
+
+body {
+    font-family: Arial;
+}
+
+table{
+    table-layout: "auto";
+    border-style: "dashed"
+}
+
+h3 {color: "black";
+    text-align: "center";
+    font-family: "Arial"
+}
+
+p {color:antiquewhite;
+    font-style: italic;
+    font-family: Arial
+}
+
+p3 {color:white;
+    font-style: oblique;
+    font-family: Arial
+}
+
+p4 {color: white;
+    font-style: normal;
+    font-family: "Arial"
+}
+
+p5 {color: white;
+    font-style: normal;
+    font-family: "Arial"
+}
